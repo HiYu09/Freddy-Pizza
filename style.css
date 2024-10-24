@@ -53,17 +53,9 @@ img {
     
 }
 
-/* .burger {
-    background-color: #821131;
-    padding: 30px;
-    border-radius: 15px;
-    text-align: center;
-    width: 300px;
-    position: absolute;
-    margin-left: 400px;
-    margin-top: -435px; 
-}*/
-    
+.featured:hover{
+    background-color: #e6722f
+}
 
 .h1{
     font-size: 70px;

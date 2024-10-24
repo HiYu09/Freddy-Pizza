@@ -1,25 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="eng">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link rel="icon" type="./ico" href="favicon.ico">
-    <link rel="stylesheet" href="./style.css">
+      <title>Freddy Fazbear's Pizza</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="./ico" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <style>
+          button {
+            background-color: #FABC3F;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px 0;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 15px;
+            display: inline-block;
+            text-transform: uppercase;
+            font-size: 30px;
+          }
+
+          button:hover {
+            background-color: #f8c35a;
+        }
+
+        .paragraph{
+          display: inline-flex;
+          font-size: 20px;
+
+        }
+        </style>
 </head>
     <body>
-      <!-- This is about the restaurant and its origins -->
-      <img src="img/logo.jpg" alt="Freddy Fazbear Logo" style="width: 25%;">
-      <p style="font-size: large;">Welcome to Freddy Fazbear Pizza! Established in 1983, we have been serving delicious, 
-        hand-tossed pizzas made with the freshest ingredients. Our dedication to quality and taste has made us a favorite in the community.
-        At Freddy Frazbear's Pizza, we believe in using only the finest ingredients.<br>
-        From our homemade dough to our rich tomato sauce and premium cheese, every pizza is crafted with care and passion.<br>
-        Our team of skilled chefs is committed to delivering a memorable dining experience. 
-        Whether you dine in, take out, or have your meal delivered, we ensure that each pizza is prepared to perfection.<br>
-        We are more than just a pizza place; we are a part of the community. Over the years, we have supported local events,<br>
-        sponsored sports teams, and participated in charity drives. We are proud to be a gathering place for friends and families.
-        <br>
-      Thank you for choosing Freddy Fazbear's Pizza. We look forward to serving you soon!</p>
+                                          
+          <!-- This is where the logo is. -->
+          <div class="title" draggable="true">
+            <img src="img/logo.jpg" alt="Freddy Fazbear Logo" style="width: 25%;">
+            <h1>Welcome to Freddy Fazbear's Pizza!</h1>
+          </div>
+
+        <div class="menu">
+        <button onclick="document.location='index.html'" class="ribbon"> home</button>
+        <button onclick="document.location='about.html'" class="ribbon"> about me</button>
+        <!-- <button onclick="document.location='index.html'" class="ribbon"> location</button> -->
+        </div>
+
+        <div class="paragraph">
+          <img src="img/profile.jpg" alt="profile" style="width: 25%;">
+          <p>Claude Zircon C. Mateo, a 19-year-old from Minglanilla, Cebu,
+            recently made waves with his creative venture—building a website inspired by the iconic pizza restaurant from the movie "Five Nights at Freddy's."
+            As a fan of the film's unique blend of suspense and gaming culture, Claude saw an opportunity to bring the fictional restaurant to life in a digital space.
+            His website captures the eerie yet nostalgic atmosphere of the movie's animatronic-filled pizzeria, complete with interactive elements that reflect his growing skills in web design
+            and development. Combining his passion for technology and pop culture, Claude's project has gained attention from fellow fans and is a testament to his creativity and ambition at a young age.
+          </p>
+      </div>
+
+      <hr>
+<br><br><br><br><br><br><br><br><br><br>
+
     </body>
 
 </html>
