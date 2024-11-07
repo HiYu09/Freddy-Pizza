@@ -11,9 +11,17 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="style.css">
         <style>
-          button {
+            *{
+                font-family: "Bebas Neue", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                text-transform: uppercase;
+                font-size: 30px;
+            }
+
+            button {
             background-color: #FABC3F;
             color: white;
             border: none;
@@ -31,40 +39,91 @@
             background-color: #f8c35a;
         }
 
-        .paragraph{
-          display: inline-flex;
-          font-size: 20px;
+          body {
+              background-color: #e9a111;
+              font-family: Arial, sans-serif;
+              align-items: center;
+              height: 100vh;
+          }
+  
+          .card {
+              background-color: #FABC3F;
+              padding: 30px;
+              border-radius: 15px;
+              display: inline-block;
+              width: 300px;
+              margin-top: 30px;
+          }
+          .card button {
+              background-color: #E85C0D;
+              color: white;
+              border: none;
+              padding: 10px 20px;
+              margin: 5px 0;
+              border-radius: 5px;
+              width: 100%;
+              font-size: 15px;
+          }
+  
+          .card button:hover {
+              background-color: #e6722f;
+          }
+  
+          .card button:active {
+              background-color: #f18648;}
+  
+          .profile-img {
+              width: 100px;
+              height: 100px;
+              border-radius: 50%;
+              margin-bottom: 20px;
+          }
+  
+          .location {
+              color: #f3f3f3;
+              font-size: 14px;
+              margin-bottom: 10px;
+          }
+          h2 {
+              color: #fff;
+              font-size: 24px;
+              margin-bottom: 10px;
+          }
+  
+          .bio {
+              color: #872341;
+              font-size: 14px;
+              font-style: italic;
+              margin-bottom: 20px;
+          }
 
-        }
-        </style>
-</head>
-    <body>
-                                          
-          <!-- This is where the logo is. -->
-          <div class="title" draggable="true">
-            <img src="img/logo.jpg" alt="Freddy Fazbear Logo" style="width: 25%;">
-            <h1>Welcome to Freddy Fazbear's Pizza!</h1>
-          </div>
-
-        <div class="menu">
-        <button onclick="document.location='index.html'" class="ribbon"> home</button>
-        <button onclick="document.location='about.html'" class="ribbon"> about me</button>
-        <!-- <button onclick="document.location='index.html'" class="ribbon"> location</button> -->
-        </div>
-
-        <div class="paragraph">
-          <img src="img/profile.jpg" alt="profile" style="width: 25%;">
-          <p>Claude Zircon C. Mateo, a 19-year-old from Minglanilla, Cebu,
-            recently made waves with his creative venture—building a website inspired by the iconic pizza restaurant from the movie "Five Nights at Freddy's."
-            As a fan of the film's unique blend of suspense and gaming culture, Claude saw an opportunity to bring the fictional restaurant to life in a digital space.
-            His website captures the eerie yet nostalgic atmosphere of the movie's animatronic-filled pizzeria, complete with interactive elements that reflect his growing skills in web design
-            and development. Combining his passion for technology and pop culture, Claude's project has gained attention from fellow fans and is a testament to his creativity and ambition at a young age.
-          </p>
+          .title {
+            background-color: #FABC3F;
+            display:inline-flex;
+            width: 100%;
+            }
+  
+   
+      </style>
+  </head>
+  <body>
+    <div class="title" draggable="true">
+        <a href="index.html">
+            <img src="img/logo.jpg" alt="Freddy Fazbear Logo" style="width: 80%;">
+        </a>
+        <button onclick="document.location='menu.html'">menu</button>
+        <button onclick="document.location='index.html'">home</button>
+        <button onclick="document.location='about.html'">about me</button>
       </div>
-
-      <hr>
-<br><br><br><br><br><br><br><br><br><br>
-
-    </body>
-
-</html>
+      <div class="card">
+          <img src="img/pfp.jpg" alt="Profile Picture" class="profile-img">
+          <h2> Claude Zircon C. Mateo</h2>
+          <p class="location">Minglanilla, Cebu</p>
+          <p class="bio">UC-Main BSIT Student</p>
+           <button onclick="document.location='https://www.facebook.com/an.eula.simp'">Facebook</button>
+           <button onclick="document.location='https://www.instagram.com/tok1yu/'">Instagram</button>
+           <button onclick="document.location='https://github.com/HiYu09'">Github</button>
+      </div>
+  
+  </body>
+  </html>
