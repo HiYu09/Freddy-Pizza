@@ -39,13 +39,22 @@
             text-transform: uppercase;
             display: inline-block;
             margin-top: 30px;
+            transition: transform 0.2s ease;
             
             
          }
 
          .drinks-menu:hover{
             background-color: #e6722f;
+            transform: scale(1.1);
          }
+         .menu button {
+        transition: transform 0.2s ease;
+    }
+
+    .menu button:hover {
+        transform: scale(1.1);
+    }
         </style>
         
 </head>
@@ -72,6 +81,7 @@
             <button onclick="document.location='burger.html'">burgers</button>
             <img src="img/burger.jpg" alt="Burger">
         </div>
+      
         <div class="menu">
           <!-- Fries -->
               <button onclick="document.location='fries.html'">french fries</button>
@@ -81,8 +91,18 @@
         <div class="menu">
           <!-- DRinks -->
               <button onclick="document.location='drinks.html'">drinks</button>
-              <img src="img/drinks.jpg" alt="burger">
+              <img src="img/drinks.jpg" alt="drinks">
         </div>
+        
+        <div class="menu">
+          <button onclick="document.location='pasta.html'">pasta</button>
+          <img src="img/pasta.jpg" alt="pasta">
+      </div>
+      
+      <div class="menu">
+          <button onclick="document.location='salad.html'">salad</button>
+          <img src="img/salad.jpg" alt="salad">
+      </div>
         <br>
         <div class="drinks-menu">
                 <img src="img/drinks.jpg" alt="orange juice">

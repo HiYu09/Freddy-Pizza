@@ -11,9 +11,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="style.css">
         <style>
-          button {
+           button {
             background-color: #FABC3F;
             color: white;
             border: none;
@@ -30,7 +30,26 @@
           button:hover {
             background-color: #f8c35a;
         }
+         .salad-menu{
+            background-color: #E85C0D;
+            padding: 30px;
+            text-align: center;
+            width: 300px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-top: 40px;
+            transition: transform 0.2s ease;
+            
+            
+         }
 
+         .salad-menu:hover{
+            background-color: #e6722f;
+            transform: scale(1.1);
+         }
+
+         
         .menu button {
         transition: transform 0.2s ease;
     }
@@ -38,49 +57,45 @@
     .menu button:hover {
         transform: scale(1.1);
     }
-
         </style>
         
 </head>
-                    
-<body>
+                                     
+       
           <!-- This is where the logo is. -->
           <div class="title" draggable="true">
             <a href="index.html">
-                <img src="img/logo.jpg" alt="Freddy Fazbear Logo" style="width:80%;">
+                <img src="img/logo.jpg" alt="Freddy Fazbear Logo" style="width: 80%;">
             </a>
             <button onclick="document.location='menu.html'">menu</button>
             <button onclick="document.location='index.html'">home</button>
             <button onclick="document.location='about.html'">about me</button>
-        </div>
-          <div class="ribbon">
-
-        
-        <!-- <button onclick="document.location='index.html'" class="ribbon"> location</button> -->
           </div>
         <h1 style="color: white;">menu</h1>
             <!-- Menu -->
-            <div class="menu">
-              <button onclick="document.location='pizza.html'">pizzas</button>
-              <img src="img/classic margherita.jpg" alt="classic margherita">
-          </div>
-  
           <div class="menu">
-              <button onclick="document.location='burger.html'">burgers</button>
-              <img src="img/burger.jpg" alt="Burger">
-          </div>
-  
-          <div class="menu">
-              <button onclick="document.location='fries.html'">french fries</button>
-              <img src="img/fries.jpg" alt="fries">
-          </div>
-  
-          <div class="menu">
-              <button onclick="document.location='drinks.html'">drinks</button>
-              <img src="img/drinks.jpg" alt="drinks">
+            <button onclick="document.location='pizza.html'">pizzas</button>
+            <img src="img/classic margherita.jpg" alt="classic margherita">
           </div>
 
-          <div class="menu">
+        <div class="menu">
+        <!-- Burger -->
+            <button onclick="document.location='burger.html'">burgers</button>
+            <img src="img/burger.jpg" alt="Burger">
+        </div>
+        <div class="menu">
+          <!-- Fries -->
+              <button onclick="document.location='fries.html'">french fries</button>
+              <img src="img/fries.jpg" alt="fries">
+        </div>
+
+        <div class="menu">
+          <!-- DRinks -->
+              <button onclick="document.location='drinks.html'">drinks</button>
+              <img src="img/drinks.jpg" alt="drinks">
+        </div>
+
+        <div class="menu">
             <button onclick="document.location='pasta.html'">pasta</button>
             <img src="img/pasta.jpg" alt="pasta">
         </div>
@@ -89,6 +104,19 @@
             <button onclick="document.location='salad.html'">salad</button>
             <img src="img/salad.jpg" alt="salad">
         </div>
+        <br>
+        <div class="salad-menu">
+            <img src="img/olivegardensalad.jpg" alt="olivegardensalad">
+            <h2>olive garden salad</h2>
+
+        </div>
+
+        <div class="salad-menu">
+            <img src="img/radishsalad.jpg" alt="radish salad">
+            <h2>radish salad</h2>
+
+        </div>
+        
 
 <hr>
 <br><br><br><br><br><br><br><br><br><br>

@@ -39,13 +39,23 @@
             text-transform: uppercase;
             display: inline-block;
             margin-top: 30px;
+            transition: transform 0.2s ease;
             
             
          }
 
          .fries-menu:hover{
             background-color: #e6722f;
+            transform: scale(1.1);
          }
+
+         .menu button {
+        transition: transform 0.2s ease;
+    }
+
+    .menu button:hover {
+        transform: scale(1.1);
+    }
         </style>
         
 </head>
@@ -81,8 +91,19 @@
         <div class="menu">
           <!-- DRinks -->
               <button onclick="document.location='drinks.html'">drinks</button>
-              <img src="img/drinks.jpg" alt="burger">
+              <img src="img/drinks.jpg" alt="drinks">
+              
         </div>
+
+        <div class="menu">
+          <button onclick="document.location='pasta.html'">pasta</button>
+          <img src="img/pasta.jpg" alt="pasta">
+      </div>
+      
+      <div class="menu">
+          <button onclick="document.location='salad.html'">salad</button>
+          <img src="img/salad.jpg" alt="salad">
+      </div>
         <br>
         <div class="fries-menu">
                 <img src="img/bbq.jpg" alt="BBQ">
@@ -95,6 +116,8 @@
             <h2>cheesy french fries</h2>
 
         </div>
+
+        
 
 <hr>
 <br><br><br><br><br><br><br><br><br><br>
